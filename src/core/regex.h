@@ -30,6 +30,7 @@
 
 #define REGEX_MAX_MATCHES 100
 
+#define PCRE_STATIC
 #include "pcre.h"
 
 #include <string>
