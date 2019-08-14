@@ -1,3 +1,0 @@
-#!/bin/sh
-LOGSTALGIA_CMD_DIR=`dirname "$0"`
-"$LOGSTALGIA_CMD_DIR/../logstalgia.exe" "$@"

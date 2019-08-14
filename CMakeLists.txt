@@ -66,7 +66,7 @@ set(sources
     src/core/vectors.cpp
     )
 
-add_executable(${CMAKE_PROJECT_NAME} ${sources})
+add_executable(${CMAKE_PROJECT_NAME} ${sources} resources.rc)
 target_link_libraries(${CMAKE_PROJECT_NAME}
     ${OPENGL_gl_LIBRARY}
     ${GLEW}
